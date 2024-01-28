@@ -8,7 +8,6 @@ function App() {
   return (
     <div className="App">
       <MenuBar />
-      <Header />
       <p>Welcome to my GAY AF website!</p>
       <img src="/twogays.gif" alt="logo" style={{ width: '700px', height: '500px' }} />
     </div>
