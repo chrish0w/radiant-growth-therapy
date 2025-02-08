@@ -31,7 +31,7 @@ const MenuBar = () => {
       {/* Move Logo to the left */}
       <div className="logo-container">
         <Link to="/" onClick={(e) => handleLinkClick(e, "/")}>
-          <img src="/radiant_logo_no_words.png" alt="Business Logo" className="logo" />
+          <img src={`${process.env.PUBLIC_URL}/radiant_logo_no_words.png`} alt="Business Logo" className="logo" />
         </Link>
       </div>
 
