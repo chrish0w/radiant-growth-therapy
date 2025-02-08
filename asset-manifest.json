@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.e5c5f58a.css",
-    "main.js": "/static/js/main.d4e24e24.js",
-    "static/js/66.52a22575.chunk.js": "/static/js/66.52a22575.chunk.js",
-    "index.html": "/index.html",
-    "main.e5c5f58a.css.map": "/static/css/main.e5c5f58a.css.map",
-    "main.d4e24e24.js.map": "/static/js/main.d4e24e24.js.map",
-    "66.52a22575.chunk.js.map": "/static/js/66.52a22575.chunk.js.map"
+    "main.css": "/radiant-growth-therapy/static/css/main.e5c5f58a.css",
+    "main.js": "/radiant-growth-therapy/static/js/main.a991782d.js",
+    "static/js/66.52a22575.chunk.js": "/radiant-growth-therapy/static/js/66.52a22575.chunk.js",
+    "index.html": "/radiant-growth-therapy/index.html",
+    "main.e5c5f58a.css.map": "/radiant-growth-therapy/static/css/main.e5c5f58a.css.map",
+    "main.a991782d.js.map": "/radiant-growth-therapy/static/js/main.a991782d.js.map",
+    "66.52a22575.chunk.js.map": "/radiant-growth-therapy/static/js/66.52a22575.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5c5f58a.css",
-    "static/js/main.d4e24e24.js"
+    "static/js/main.a991782d.js"
   ]
 }
