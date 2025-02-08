@@ -18,7 +18,7 @@ const HomePage = () => {
       {/* Hero Section */}
       <div className="image-container">
         <img
-          src="/radiant_background.jpg"
+          src={`${process.env.PUBLIC_URL}/radiant_background.jpg`}
           alt="background"
           className="background"
         />
@@ -40,7 +40,7 @@ const HomePage = () => {
       {/* About Preview Section */}
       <div className="about-preview">
         <img
-          src="/stock_photo.jpg"
+          src={`${process.env.PUBLIC_URL}/stock_photo.jpg`}
           alt="therapy session"
           className="about-preview-image"
         />
@@ -58,19 +58,19 @@ const HomePage = () => {
             <div className="bubble-item">
               <span className="bubble-title">Who We Are</span>
               <div className="bubble" onClick={() => setSelectedBubble(1)}>
-                <img src="/whoweare.jpeg" alt="Who We Are" />
+                <img src={`${process.env.PUBLIC_URL}/whoweare.jpeg`} alt="Who We Are" />
               </div>
             </div>
             <div className="bubble-item">
               <span className="bubble-title">What We Do</span>
               <div className="bubble" onClick={() => setSelectedBubble(2)}>
-                <img src="/whatwedo.jpeg" alt="What We Do" />
+                <img src={`${process.env.PUBLIC_URL}/whatwedo.jpeg`} alt="What We Do" />
               </div>
             </div>
             <div className="bubble-item">
               <span className="bubble-title">Why We Do It</span>
               <div className="bubble" onClick={() => setSelectedBubble(3)}>
-                <img src="/whywedoit.jpeg" alt="Why We Do It" />
+                <img src={`${process.env.PUBLIC_URL}/whywedoit.jpeg`} alt="Why We Do It" />
               </div>
             </div>
           </div>
@@ -108,7 +108,7 @@ const HomePage = () => {
           </button>
         </div>
         <div className="contact-image">
-          <img src="/michelle_profile.jpg" alt="Contact Us" />
+          <img src={`${process.env.PUBLIC_URL}/michelle_profile.jpg`} alt="Contact Us" />
         </div>
       </div>
     </div>

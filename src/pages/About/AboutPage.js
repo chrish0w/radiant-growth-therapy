@@ -39,7 +39,7 @@ function AboutPage() {
       <div className="about-hero">
         <h1 className="about-title">About Us</h1>
         <div className="hero-image-container">
-          <img src="/musictherapy.jpg" alt="Team" className="hero-image" />
+          <img src={`${process.env.PUBLIC_URL}/musictherapy.jpg`} alt="Team" className="hero-image" />
         </div>
       </div>
 
@@ -60,7 +60,7 @@ function AboutPage() {
           </p>
         </div>
         <div className="about-image-container">
-          <img src="/radiant_logo.png" alt="About Us" className="about-image" />
+          <img src={`${process.env.PUBLIC_URL}/radiant_logo.png`} alt="About Us" className="about-image" />
         </div>
       </div>
 
@@ -70,7 +70,7 @@ function AboutPage() {
         <div className="team-container">
           <div className="team-image-container">
             <img
-              src="/michelle_profile.jpg"
+              src={`${process.env.PUBLIC_URL}/michelle_profile.jpg`}
               alt="Michelle"
               className="team-image"
             />
@@ -176,7 +176,7 @@ function AboutPage() {
           </p>
         </div>
         <div className="why-image-container">
-          <img src="/disabled.jpeg" alt="Why We Do It" className="why-image" />
+          <img src={`${process.env.PUBLIC_URL}/disabled.jpeg`} alt="Why We Do It" className="why-image" />
         </div>
       </div>
     </div>

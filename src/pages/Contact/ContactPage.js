@@ -29,7 +29,7 @@ function ContactPage() {
             <div className="contact-hero">
                 <h1 className="contact-title">Contact Us</h1>
                 <div className="hero-image-container">
-                    <img src="/contact-us.avif" alt="Contact Team" className="hero-image" />
+                    <img src={`${process.env.PUBLIC_URL}/contact-us.avif`} alt="Contact Team" className="hero-image" />
                 </div>
             </div>
 

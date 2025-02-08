@@ -28,7 +28,7 @@ function ServicesPage() {
           <div className="services-hero">
               <h1 className="services-title">Our Services</h1>
               <div className="hero-image-container">
-                  <img src="/service-image.jpeg" alt="Music Therapy Session" className="hero-image" />
+                  <img src={`${process.env.PUBLIC_URL}/service-image.jpeg`} alt="Music Therapy Session" className="hero-image" />
               </div>
           </div>
 
