@@ -1,26 +1,25 @@
 import React from 'react';
 import './App.css';
-import MenuBar from './MenuBar';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Import BrowserRouter, Routes, and Route from React Router
-import AboutPage from './AboutPage'; // Import the AboutPage component
+import MenuBar from './components/MenuBar/MenuBar';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import AboutPage from './pages/About/AboutPage';
+import HomePage from './pages/Home/HomePage'; // Import the new HomePage component
+import ServicesPage from './pages/Services/ServicesPage';
+import ContactPage from './pages/Contact/ContactPage';
+import Footer from './components/Footer/Footer';  // Import Footer component
 
 function App() {
   return (
-    <Router> {/* Wrap your entire application with BrowserRouter */}
+    <Router>
       <div className="App">
         <MenuBar />
-        <Routes> {/* Use Routes to define your routes */}
-          <Route path="/" element={ // Define the route for the home page
-            <div className="image-container">
-              <img src="/radiant_background.jpg" alt="background" className="background" style={{ width: '100%', height: '750px' }} />
-              <div className="text-overlay">
-                <h2>Empowering Through Therapy: Music Services in Australia</h2>
-                <p>Unlock your potential with expert guidance. Discover Comprehensive Music Therapy Solutions for All Ages.</p>
-              </div>
-            </div>
-          } />
-          <Route path="/about" element={<AboutPage />} /> {/* Define the route for the About page */}
-        </Routes>
+        <Routes>
+          <Route path="/" element={<HomePage />} /> {/* Use HomePage for the "/" route */}
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/services" element={<ServicesPage />} />
+          <Route path="/contact" element={<ContactPage />} /> {/* Add this route */}
+          </Routes>
+        <Footer />  {/*Add Footer below Routes to appear on all pages */}
       </div>
     </Router>
   );
